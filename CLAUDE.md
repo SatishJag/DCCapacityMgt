@@ -5,8 +5,8 @@ Handoff notes for any AI agent or developer continuing this codebase. Read this 
 ## What this is
 
 An MVP of the **"Data Centre Capacity Planning and Infrastructure Validation Platform"** described in the
-functional/technical specification v1.0 (the original spec was pasted into the first chat session; if a copy is
-placed at `docs/SPEC.md`, treat it as the source of truth for requirements). The app captures IT load, rack density
+functional/technical specification v1.0 in **`docs/SPEC.md`** — treat it as the source of truth for requirements
+(FR-xxx and AL-xxx IDs referenced in code and below come from it). The app captures IT load, rack density
 and rack plans, **validates them against power, cooling, space, cabling and redundancy design capacity**, runs
 approval/change-control workflows, gates capacity release through commissioning, and reports utilisation.
 
